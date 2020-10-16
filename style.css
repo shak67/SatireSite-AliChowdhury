@@ -11,6 +11,7 @@ overflow: hidden; /*dunno what this does, but it allows us to see the nav bar*/
 }
 
 
+
 li {
 float: left;
 
@@ -54,4 +55,8 @@ grid-column-gap: 1em;
 grid-row-gap: 1em;
 grid-template-rows: 50% 50%;
 grid-template-areas: 50% 50%;
+}
+
+body{
+  font-family: "Comic Sans MS", "Comic Sans", cursive; /* I think comic sans fits the theme better*/
 }
