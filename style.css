@@ -1,0 +1,57 @@
+
+/*Ul for navigation tab*/
+
+/*ul means unordered list*/
+ul {
+list-style-type: none;/*takes out the bullet points*/
+margin:0;
+padding: 0;
+background-color: #333; /*defaul color of each list is black*/
+overflow: hidden; /*dunno what this does, but it allows us to see the nav bar*/
+}
+
+
+li {
+float: left;
+
+}
+/*Anything with an 'a' element will have these properties*/
+li a{
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+/*anything with the 'active class' attached will have background color of yellow*/
+.active {
+
+  background-color: yellow;
+  color: black;
+}
+/*end navigation CSS*/
+.wrapper > div{
+
+background:grey;
+padding:1em;
+
+}
+
+.wrapper > div:nth-child(odd){
+
+  background: #ddd;
+}
+.wrapper{
+display: grid;
+grid-template-columns: 40% 30%;
+grid-column-gap: 1em;
+grid-row-gap: 1em;
+
+}
+
+.wrapperRow{
+display: grid;
+grid-column-gap: 1em;
+grid-row-gap: 1em;
+grid-template-rows: 50% 50%;
+grid-template-areas: 50% 50%;
+}
