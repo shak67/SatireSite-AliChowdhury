@@ -7,7 +7,7 @@ list-style-type: none;/*takes out the bullet points*/
 margin:0;
 padding: 0;
 background-color: #333; /*defaul color of each list is black*/
-overflow: hidden; /*dunno what this does, but it allows us to see the nav bar*/
+overflow: hidden; 
 }
 
 
